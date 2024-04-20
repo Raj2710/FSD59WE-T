@@ -6,6 +6,7 @@ In todays session we learned about github.
 4.	git remote add origin remoteUrl – connect the local repo to the remote repo.
 5.	git branch -m branchName – create a new branch with branchName. 
 6.	git push -u origin branchName– push all the local repo data to the remote repo on branch master.
+7. git pull - get all the remote changes to the local repository.
 
 
 Pushing code for First Time:
