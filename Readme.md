@@ -20,3 +20,12 @@ Pushing code for nth Time:
 1.	git add .
 2.	git commit -m “Commit message”
 3.	git push
+
+
+To change the branch
+1. git checkout branchName
+
+To Merge the branch
+1. Go to the base branch (git checkout git-demo)
+2. git merge changesBranch (git merge master)
+3. git push
