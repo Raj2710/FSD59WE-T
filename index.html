@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Day 2</title>
+    <style>
+        #offer{
+            text-align: center;
+        }
+
+        h2 > sub{
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="openTab()">Open Tab</button>
+    <button onclick="closeTab()">Close Tabs</button>
+    <button onclick="confirmSubmission()">Confirm</button>
+    
+
+    <div id="counter">
+
+        <h2 id="timer"> Offer Ends in 00<sub>HH</sub> : 00<sub>MM</sub> : 00<sub>SS</sub></h2>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
