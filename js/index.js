@@ -31,10 +31,7 @@ async function getData ()
             }
         })
         let data = await res.json()
-        if(data.length)
-        {
-            constructTable(data)
-        }
+        constructTable(data)
     } catch (error) {
         console.log(error)
     }
@@ -49,7 +46,7 @@ async function deleteUser(id){
         let res = await fetch(`${API_URL}/${id}`,{
             method:"DELETE"
         })
-        if(res)
+        if(res.status===200)
             getData()
     } catch (error) {
         console.log(error)
