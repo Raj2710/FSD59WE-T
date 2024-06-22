@@ -21,7 +21,6 @@ const constructTable = (data)=>{
     
 }
 
-
 async function getData ()
 {
     try {
@@ -48,10 +47,7 @@ getData()
 async function deleteUser(id){
     try {
         let res = await fetch(`${API_URL}/${id}`,{
-            method:"DELETE",
-            headers:{
-                "Content-Type":"application/json"
-            }
+            method:"DELETE"
         })
         if(res)
             getData()
